@@ -1,16 +1,14 @@
-# headmachine
-
-## glassespart
-### Required 
+# glassespart
+## Required 
     min sdk version 27 (Android 8.1.0, Oreo)
     target sdk version 28 (Android 9, Pie)
 
-### Android Feature/Issue
+## Android Feature/Issue
     For create Socket, need create Assync Tast (something like thread).
     For send info to server (machinepart) need create socket and thread for it.
     For working with OpenCV need create thread.
 
-### Threads/modules
+## Threads/modules
  - thread for tcp/udp socket for receive info from camera
  - thread for convert and record image (OpenCV processing)
  - thread for get Gyroscope data
@@ -19,8 +17,8 @@
 
 ### Activity
 
-#### Debug Activity
+### Debug Activity
     Need for debugging all parts of project separately
 
-#### Config Activity
+### Config Activity
     Need for chaning configuration of project, like ip, port of local and target
